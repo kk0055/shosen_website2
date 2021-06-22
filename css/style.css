@@ -298,6 +298,10 @@ header .icon img {
 	width:302px;
 	height:302px;
 }
+.works-image{
+	width:350px;
+	height:400px;
+}
 .list a {
 	display: block;
 	text-decoration: none;
