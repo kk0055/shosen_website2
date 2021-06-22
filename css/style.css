@@ -294,6 +294,10 @@ header .icon img {
 	margin-bottom: 20px;	/*下に空けるスペース*/
 	background: #000;	/*背景色*/
 }
+.list img{
+	width:302px;
+	height:302px;
+}
 .list a {
 	display: block;
 	text-decoration: none;
