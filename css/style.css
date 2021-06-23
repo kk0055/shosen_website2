@@ -284,7 +284,7 @@ header .icon img {
 #main .mission {
 	padding-left: 20px;				/*線と文字の間の余白*/
   text-align: center;	
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	letter-spacing: 0.2em;	/*文字間隔を少し広くとる設定*/
 	color: #c1bc9e;	
 }
@@ -806,6 +806,13 @@ footer .pr {display: block;}
 /*他。微調整。*/
 #main section + section {
 	padding-top: 20px;
+}
+#main .mission {
+	padding-left: 20px;				/*線と文字の間の余白*/
+  text-align: center;	
+	font-size: 15px;
+	letter-spacing: 0.2em;	/*文字間隔を少し広くとる設定*/
+	color: #c1bc9e;	
 }
 
 /*listブロック（works.htmlで使用）
