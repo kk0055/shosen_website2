@@ -585,14 +585,23 @@ header.sh .logo {
 }
 
 .list {
-	
 	position: relative;
 	float: left;	/*左に回り込み*/
 	width: 50%;		/*幅*/
+	height:auto;
 	margin-left: 2.5%;	/*左に空けるスペース*/
 	margin-bottom: 20px;	/*下に空けるスペース*/
 	background: #000;	/*背景色*/
 }
+
+/* .list img{
+	width:303px;
+	height:303px;
+} */
+
+
+
+
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*アニメーションのフレーム設定。全100コマアニメーションだと思って下さい。
