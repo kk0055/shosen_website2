@@ -39,6 +39,23 @@ a:hover {
 	text-decoration: none;	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
 }
 
+
+.center {
+  text-align: center;
+}
+.box-wrap {
+ 
+  display: inline-block;
+}
+.box-inner {
+  font-size: 60%;
+  font-weight: bold;
+  margin: -2px 8px;
+  padding: 5px 20px;
+  color: #0084B4;
+}
+
+
 /*container。サイト全体を囲むブロック
 ---------------------------------------------------------------------------*/
 /*containerブロック共通*/
@@ -316,8 +333,8 @@ header .icon img {
 	background: #000;	/*背景色*/
 }
 .list img{
-	width:302px;
-	height:302px;
+	width:303px;
+	height:303px;
 }
 .works-image{
 	width:350px;
@@ -559,6 +576,23 @@ header.sh .logo {
 	width: 80px;	/*ロゴ画像の幅*/
 }
 
+.list-flex {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.list {
+	
+	position: relative;
+	float: left;	/*左に回り込み*/
+	width: 50%;		/*幅*/
+	margin-left: 2.5%;	/*左に空けるスペース*/
+	margin-bottom: 20px;	/*下に空けるスペース*/
+	background: #000;	/*背景色*/
+}
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*アニメーションのフレーム設定。全100コマアニメーションだと思って下さい。
