@@ -280,6 +280,14 @@ header .icon img {
 	border-left: 3px solid #c1bc9e;	/*左の線の幅、線種、色*/
 	padding-left: 20px;				/*線と文字の間の余白*/
 }
+
+#main .mission {
+	padding-left: 20px;				/*線と文字の間の余白*/
+  text-align: center;	
+	font-size: 1.3rem;
+	letter-spacing: 0.2em;	/*文字間隔を少し広くとる設定*/
+	color: #c1bc9e;	
+}
 /*h2タグにclass="title"をつけたタイプ。大見出し。*/
 #main h2.title {
 	font-family: 'Poiret One';	/*冒頭のgoogle fontsの指定*/
