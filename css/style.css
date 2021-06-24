@@ -65,7 +65,7 @@ a:hover {
 	height: 100%;
 }
 /*背景画像に黒をかぶせる*/
-.company #container:before {
+.company #main:before {
   content: '';
   position: absolute;
   top: 0;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 /*背景画像に黒をかぶせる*/
-.works #container:before {
+.works #main:before {
   content: '';
   position: absolute;
   top: 0;
