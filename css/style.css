@@ -65,7 +65,7 @@ a:hover {
 	height: 100%;
 }
 /*背景画像に黒をかぶせる*/
-.company #main:before {
+/* .company #contents:before {
   content: '';
   position: absolute;
   top: 0;
@@ -73,10 +73,11 @@ a:hover {
   left: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
-}
+} */
+
 
 /*背景画像に黒をかぶせる*/
-.works #main:before {
+/* .works #contents:before {
   content: '';
   position: absolute;
   top: 0;
@@ -84,11 +85,12 @@ a:hover {
   left: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
-}
+} */
 /*company.htmlの背景画像指定*/
 .company #container {
 
 	background: url(https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_1280.jpg) no-repeat center center / cover;	/*背景画像*/
+	
 }
 /*works.htmlの背景画像指定*/
 .works #container {
@@ -554,7 +556,7 @@ ol {
 ---------------------------------------------------------------------------*/
 .box {
 	background: #000;				/*背景色（古いブラウザ用）*/
-	background: rgba(0,0,0,0.7);	/*背景色。0,0,0は黒の事で0.7は色が70%出た状態の事。*/
+	background: rgba(0,0,0,0.9);	/*背景色。0,0,0は黒の事で0.7は色が70%出た状態の事。*/
 	padding: 5%;					/*ボックス内の余白*/
 	margin-bottom: 30px;			/*ボックスの下に空けるスペース*/
 	border: 1px solid #fff;						/*線の幅、線種、色（古いブラウザ用）*/
